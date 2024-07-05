@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.profile_pic{
+    width: 66vw;
+}
+
+.glass {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+.glass h2 {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.glass h3{
+    font-size: 2rem;
+}
+
+.glass{
+    width: 36vw;
+    margin: 3.5rem 0rem;
+}
+
+#textp {
+    font-size: 8rem;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+#self img{
+    width: 30vw;
+    height: 40vh;
+}
+
+
+/* programming language */
+#boxlogo{
+    width: 7vw;
+}
+#textprod{
+    font-size: 4rem;
+    font-weight: 900; 
+    color: whitesmoke;
+}
+
+#essay p{
+    font-size: 1rem;
+}
+.container_5 h2{
+    color: black;
+    font-weight: bold;
+}
+
+.container_10, .container_8{
+    width: 30vw;
+}
+
+
+
+/* education */
+
+.row pre {
+    font-size: 8rem;
+    font-weight: 900;
+}
+#school{
+    height: 32vh;
+    width: 16vw;
+}
+#footer_info pre{
+    font-size: 1.8rem;
+}
+
+
+@media only screen and (max-width:1440px) {
+    .glass h2 {
+        font-size: 4rem;
+    }
+
+    #textp {
+        font-size: 3rem;
+    }
+
+    .row pre {
+        font-size: 5rem;
+    }
+    #school{
+        height: 16.5vh;
+        width: 10vw;
+    }
+    #footer_info pre{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width:1024px) {
+    .glass h2 {
+        font-size: 2rem;
+    }
+
+    #textp {
+        font-size: 3rem;
+    }
+
+    .row pre {
+        font-size: 5rem;
+    }
+    #school{
+        height: 17.5vh;
+        width: 15vw;
+    }
+    #footer_info pre{
+        font-size: 1rem;
+    }
+    .profile_pic{
+        padding-top: 65px;
+    }
+
+    #boxlogo{
+        width: 15vw;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .glass h2 {
+        font-size: 2rem;
+    }
+    .glass h3{
+        font-size: 1.2rem;
+    }
+
+    #textp {
+        font-size: 3rem;
+    }
+
+    .row pre {
+        font-size: 3rem;
+    }
+    #school{
+        height: 17.5vh;
+        width: 20vw;
+    }
+    #footer_info pre{
+        font-size: 1rem;
+    }
+    .profile_pic{
+        padding-top: 65px;
+    }
+
+    #boxlogo{
+        width: 15vw;
+    }
+    #essay p{
+        font-size: 1rem;
+        
+    }
+    #self{
+        margin-top: 40px;
+    }
+    #self img{
+        width: 65vw;
+        height: 50vh;
+    }
+}
+@media only screen and (max-width:320px) {
+    .container_1{
+        flex-direction: column;
+    }
+    .glass h2{
+        font-size: 1.5rem;
+    }
+    .glass h3, h4 {
+        font-size: 1rem;
+    }
+    .glass h3{
+        font-size: 1.2rem;
+    }
+
+    #textp {
+        font-size: 3rem;
+    }
+
+    .row pre {
+        font-size: 1.5rem;
+    }
+    #school{
+        height: 13vh;
+        width: 40.5vw;
+    }
+    #footer_info pre{
+        font-size: 1rem;
+    }
+    .profile_pic{
+        padding-top: 65px;
+    }
+
+    #boxlogo{
+        width: 25vw;
+    }
+    #essay p{
+        font-size: 0.5rem;
+        
+    }
+    #self{
+        margin-top: 40px;
+    }
+    #self img{
+        width: 190vw;
+        height: 25vh;
+    }
+    .glass{
+        width: 70vw;
+    }
+    .profile_pic{
+        width: 100vw;
+    }
+
+    .container_5 h2{
+        color: aliceblue;
+        
+    }
+    #textprod{
+        font-size: 1.5rem;
+        font-weight: 900; 
+        color: whitesmoke;
+    }
+    .container_10, .container_8{
+        width: 80vw;
+    }
+    .container_7{
+        flex-direction: column;
+    }
+    .container_9{
+        height: 30vh;
+    }
+
+}
+
+
+
+
+/* message me page */
+
+.profile_pic{
+    width: 50%
+}
+#greeting h3, #mes_fot{
+    font-size: 4rem; 
+    font-weight: 40px;
+}
+
+.formbox{
+    width: 25vw; 
+    margin: 3.5rem 0rem;
+}
+
+footer #mesfot, pre{
+    font-size: 1.8rem;
+}
+
+@media only screen and (min-width:1440px) {
+    #greeting h3, pre{
+        font-size: 2rem
+    }
+    #greeting h3, pre{
+        font-weight: 900;
+    }
+    footer #mesfot, #mes_fot{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #greeting h3, pre{
+        font-size: 1rem
+    }
+    #greeting h3, pre{
+        font-weight: 900;
+    }
+    footer #mesfot, #mes_fot{
+        font-size: 1rem;
+    }
+
+    .formbox{
+        width: 31vw;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    #greeting h3, pre{
+        font-size: 1rem
+    }
+    #greeting h3, pre{
+        font-weight: 900;
+    }
+    footer #mesfot, #mes_fot{
+        font-size: 0.8rem;
+    }
+
+    #mes_start{
+        flex-direction: column;
+        align-items: center;
+    }
+    #greeting{
+        width: 100%
+    }
+}
+@media only screen and (min-width:320px) {
+    #greeting h3, pre{
+        font-size: 1rem
+    }
+    #greeting h3, pre{
+        font-weight: 900;
+        color: aliceblue;
+    }
+    footer #mesfot, #mes_fot{
+        font-size: 0.8rem;
+    }
+
+    #mes_start{
+        flex-direction: column;
+        align-items: center;
+    }
+    #greeting{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .formbox{
+        width: 114%;
+    }
+    .profile_pic{
+        width: 93%;
+    }
+}
